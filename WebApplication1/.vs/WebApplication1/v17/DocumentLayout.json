@@ -1,0 +1,267 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\live\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|c:\\users\\live\\source\\repos\\webapplication1\\webapplication1\\migrations\\20240308084643_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBC9F67B-1A6A-4AA0-8CBD-1A12CBD3A42F}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20240308084643_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-08T09:21:58.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T09:03:29.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T09:02:27.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T09:02:14.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T09:02:05.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T08:55:35.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Movies\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Movies\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T08:55:33.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T08:55:32.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T08:55:29.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T08:55:15.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T08:55:03.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240308084643_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Migrations\\20240308084643_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240308084643_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Migrations\\20240308084643_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240308084643_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T08:46:44.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-08T08:25:53.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAgwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T08:25:15.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Movie.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T08:16:28.505Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
