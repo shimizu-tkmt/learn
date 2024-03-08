@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|c:\\users\\live\\source\\repos\\learn\\c#-asp.net-core-nyuumon\\sampleblazorapp\\sampleblazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|solutionrelative:sampleblazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|c:\\users\\live\\source\\repos\\learn\\c#-asp.net-core-nyuumon\\sampleblazorapp\\sampleblazorapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|solutionrelative:sampleblazorapp\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|c:\\users\\live\\source\\repos\\learn\\c#-asp.net-core-nyuumon\\sampleblazorapp\\sampleblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34E3EE2-0DF4-44E3-BD8C-B9E1D97C1B5F}|SampleBlazorApp\\SampleBlazorApp.csproj|solutionrelative:sampleblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "SampleBlazorApp\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "SampleBlazorApp\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:41:49.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\App.razor",
+              "RelativeDocumentMoniker": "SampleBlazorApp\\App.razor",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\App.razor",
+              "RelativeToolTip": "SampleBlazorApp\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-26T11:40:58.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "SampleBlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\Program.cs",
+              "RelativeToolTip": "SampleBlazorApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:29:45.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
