@@ -1,0 +1,26 @@
+﻿@page "/sample"
+
+<PageTitle>Sample</PageTitle>
+
+<h1>Sample</h1>
+
+<p class="h5">Curent total: @total</p>
+
+<div class="form-row">
+    <input type="number" @bind="val" class="form-control col-8" />
+    <button @onclick="Calc" class="btn btn-primary col">Click</button>
+</div>
+
+@code {
+    int val = 0;
+    int total = 0;
+
+    void Calc()
+    {
+        total = 0;
+        for(var i = 0; i <= val; i++)
+        {
+            total += i;s
+        }
+    }
+}

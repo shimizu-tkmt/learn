@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj": {}
+    "C:\\Users\\live\\source\\repos\\learn4.2\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj": {
+    "C:\\Users\\live\\source\\repos\\learn4.2\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj",
+        "projectUniqueName": "C:\\Users\\live\\source\\repos\\learn4.2\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj",
         "projectName": "SampleBlazorApp",
-        "projectPath": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj",
+        "projectPath": "C:\\Users\\live\\source\\repos\\learn4.2\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\SampleBlazorApp.csproj",
         "packagesPath": "C:\\Users\\live\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\live\\source\\repos\\learn\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\obj\\",
+        "outputPath": "C:\\Users\\live\\source\\repos\\learn4.2\\C#-ASP.NET-core-nyuumon\\SampleBlazorApp\\SampleBlazorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\live\\AppData\\Roaming\\NuGet\\NuGet.Config",
