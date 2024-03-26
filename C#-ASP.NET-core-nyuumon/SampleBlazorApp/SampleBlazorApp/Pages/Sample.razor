@@ -4,23 +4,17 @@
 
 <h1>Sample</h1>
 
-<p class="h5">Curent total: @total</p>
+<p roll="status">Curent value: @radius</p>
 
-<div class="form-row">
-    <input type="number" @bind="val" class="form-control col-8" />
-    <button @onclick="Calc" class="btn btn-primary col">Click</button>
+<div>
+    <svg x=0 y=0 width=200 height=200>
+        <circle cx="100" cy="100" r="@radius" fill="#99f" />
+    </svg>
+</div>
+<div>
+    <input type="range" class="form-control" min="0" max="100" @bind="radius" />
 </div>
 
 @code {
-    int val = 0;
-    int total = 0;
-
-    void Calc()
-    {
-        total = 0;
-        for(var i = 0; i <= val; i++)
-        {
-            total += i;s
-        }
-    }
+    private int radius = 25;
 }
