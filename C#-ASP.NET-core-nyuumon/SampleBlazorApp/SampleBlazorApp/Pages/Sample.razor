@@ -1,20 +1,38 @@
 ﻿@page "/sample"
-
-<PageTitle>Sample</PageTitle>
+@using SampleBlazorApp.Data
 
 <h1>Sample</h1>
 
-<p roll="status">Curent value: @radius</p>
+<h1>Sample</h1>
 
-<div>
-    <svg x=0 y=0 width=200 height=200>
-        <circle cx="100" cy="100" r="@radius" fill="#99f" />
-    </svg>
-</div>
-<div>
-    <input type="range" class="form-control" min="0" max="100" @bind="radius" />
-</div>
+<p class="h3">@message</p>
+
+<EditForm Model="@mydata" OnValidSubmit="@doAction">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        Name
+        <InputText id="name" @bind-Value="@mydata.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        Password
+        <InputText type="password" id="password" @bind-Value="@mydata.Password" class="form-control" />
+    </div>
+    <div class="form-group">
+        Mail
+        <InputText id="mail" @bind-Value="@mydata.Mail" class="form-control" />
+    </div>
+    <button tyep="submit" class="btn btn-primary">
+        Click
+    </button> 
+</EditForm>
 
 @code {
-    private int radius = 25;
+    private Mydata mydata = new Mydata("", "", "");
+    private string message = "Pease input form";
+
+    private void doAction()
+    {
+        message = mydata.ToString();
+    }
 }
