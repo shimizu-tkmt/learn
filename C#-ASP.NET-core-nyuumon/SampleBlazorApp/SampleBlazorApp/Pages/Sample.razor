@@ -1,19 +1,40 @@
 ﻿@page "/sample"
 @using SampleBlazorApp.Data
+@inject MydataService Myservice
 
 <h1>Sample</h1>
 
-<SampleList Items="mydata" Context="item">
-    <ItemTemplate>
-        <li class="list-group-item">@item.Name (@item.Mail)</li>
-    </ItemTemplate>
-</SampleList>
+@if (mydata == null)
+{
+    <div class="alert alert-secondary">
+        no data...
+    </div>
+}
+else
+{
+    <div class="alert alert-primary">
+        <h5>id = @num</h5>
+        <h6>@mydata.Name (@mydata.Mail)</h6>
+    </div>
+}
+<input class="form-control" type="number" min="0" max="2" value="0" @onchange="OnUpdateData" />
 
 @code {
-    private List<Mydata> mydata = new()
+    int num = 0;
+    Mydata? mydata;
+
+    protected override async Task OnInitializedAsync()
     {
-        new Mydata("Taro", "hoge", "taro@yamada"),
-        new Mydata("Hanako", "foo", "hanako@flower"),
-        new Mydata("Sachiko", "bar", "sachiko@happy")
-    };
+        await GetDataFromService();
+    }
+
+    async void OnUpdateData(ChangeEventArgs e)
+    {
+        num = Int32.Parse(e.Value?.ToString() ?? "0");
+        await GetDataFromService();
+    }
+    async Task GetDataFromService()
+    {
+        mydata = await Myservice.GetMydataAsync(num);
+    }
 }
