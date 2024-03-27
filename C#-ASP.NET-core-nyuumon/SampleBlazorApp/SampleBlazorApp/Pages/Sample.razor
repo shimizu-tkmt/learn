@@ -1,40 +1,14 @@
 ﻿@page "/sample"
-@using SampleBlazorApp.Data
-@inject MydataService Myservice
+@inject IJSRuntime JS
 
 <h1>Sample</h1>
 
-@if (mydata == null)
-{
-    <div class="alert alert-secondary">
-        no data...
-    </div>
-}
-else
-{
-    <div class="alert alert-primary">
-        <h5>id = @num</h5>
-        <h6>@mydata.Name (@mydata.Mail)</h6>
-    </div>
-}
-<input class="form-control" type="number" min="0" max="2" value="0" @onchange="OnUpdateData" />
+<button class="btn btn-primary" @onclick="hello">say hello!</button>
 
 @code {
-    int num = 0;
-    Mydata? mydata;
-
-    protected override async Task OnInitializedAsync()
+    async Task hello()
     {
-        await GetDataFromService();
-    }
-
-    async void OnUpdateData(ChangeEventArgs e)
-    {
-        num = Int32.Parse(e.Value?.ToString() ?? "0");
-        await GetDataFromService();
-    }
-    async Task GetDataFromService()
-    {
-        mydata = await Myservice.GetMydataAsync(num);
+        string res = await JS.InvokeAsync<string>("ask", "何か書いて");
+        await JS.InvokeVoidAsync("say", "あなたは、「" + res + "」と書いた。");
     }
 }
