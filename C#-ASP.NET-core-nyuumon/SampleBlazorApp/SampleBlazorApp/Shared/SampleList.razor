@@ -1,0 +1,22 @@
+﻿@typeparam TItem
+@using System.Diagnostics.CodeAnalysis
+
+<h3>SampleList</h3>
+<ul class="list-group">
+    @foreach(var item in Items)
+    {
+        if(ItemTemplate is not null)
+        {
+            @ItemTemplate(item)
+        }
+    }
+</ul>
+
+@code {
+    [Parameter]
+    public RenderFragment<TItem>? ItemTemplate { get; set; }
+
+    [Parameter, AllowNull]
+    public IReadOnlyList<TItem> Items { get; set; }
+
+}
