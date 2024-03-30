@@ -1,0 +1,49 @@
+﻿@page "/add"
+@inject NavigationManager NavManager
+@using Microsoft.EntityFrameworkCore
+@using SampleBlazorApp.Data
+@using SampleBlazorApp.Models
+@inject SampleBlazorAppContext _context
+
+
+<h3>Add</h3>
+
+<EditForm Model="@person" OnSubmit="OnAdd" >
+    <div class="text-danger">@errorMessage</div>
+    <div class="form-group">
+        <label asp-for="Person.Name" class="contlol-label"></label>
+        <input asp-for="Person.Name" class="form-control" @bind-value="@person.Name" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Person.Mail" class="control-label"></label>
+        <input asp-for="Person.Mail" class="form-control" @bind-value="@person.Mail" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Person.Age" class="control-label"></label>
+        <input asp-for="Person.Age" class="form-control" @bind-value="@person.Age" />
+    </div>
+    <div class="form-group">
+        <button class="btn btn-primary">Create</button>
+    </div>
+
+</EditForm>
+
+@code {
+    private Person person = new Person();
+    private string errorMessage = "";
+
+    private void OnAdd()
+    {
+        errorMessage = "add person...";
+        try
+        {
+            _context.Add(person);
+            _context.SaveChanges();
+            NavManager.NavigateTo("/sample");
+        }
+        catch (Exception e)
+        {
+            errorMessage = e.Message + "の問題がおこりました。";
+        }
+    }
+}

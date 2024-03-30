@@ -1,14 +1,44 @@
 ﻿@page "/sample"
-@inject IJSRuntime JS
+@using Microsoft.EntityFrameworkCore
+@using SampleBlazorApp.Data
+@using SampleBlazorApp.Models
+@inject SampleBlazorAppContext _context
 
 <h1>Sample</h1>
 
-<button class="btn btn-primary" @onclick="hello">say hello!</button>
+@if (People != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mail</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in People)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Mail</td>
+                    <td>@item.Age</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="text-primary">pleas wait...</div>
+}
+
 
 @code {
-    async Task hello()
+    public IList<Person> People { get; set; }
+
+    protected override async Task OnInitializedAsync()
     {
-        string res = await JS.InvokeAsync<string>("ask", "何か書いて");
-        await JS.InvokeVoidAsync("say", "あなたは、「" + res + "」と書いた。");
+        People = await _context.Person.ToListAsync<Person>();
     }
 }
