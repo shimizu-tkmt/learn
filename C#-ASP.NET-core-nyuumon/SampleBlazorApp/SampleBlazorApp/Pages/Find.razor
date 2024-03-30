@@ -1,0 +1,55 @@
+﻿@page "/find"
+@using Microsoft.EntityFrameworkCore
+@using SampleBlazorApp.Data
+@using SampleBlazorApp.Models
+@inject SampleBlazorAppContext _context
+
+
+<h1>Find</h1>
+
+<div class="input-group">
+    <input type="text" class="form-control　me-1" @bind="FindStr" />
+    <span oncancel="input-group-btn">
+        <button class="btn btn-primary px-4" @onclick="OnClickAction">
+            Click
+        </button>
+    </span>
+</div>
+
+@if (People != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mail</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in People)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Mail</td>
+                    <td>@item.Age</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string? FindStr { get; set; }
+    private IList<Person>? People { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        People = await _context.Person.ToListAsync<Person>();
+    }
+
+    void OnClickAction()
+    {
+        People = _context.Person.Where(m => m.Name == FindStr).ToList();
+    }
+}
