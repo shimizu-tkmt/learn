@@ -15,7 +15,6 @@
         </button>
     </span>
 </div>
-
 @if (People != null)
 {
     <table class="table">
@@ -42,15 +41,22 @@
 @code {
     private string? FindStr { get; set; }
     private IList<Person>? People { get; set; }
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public int p { get; set; }
+    [SupplyParameterFromQuery]
+    [Parameter]
+    public int n { get; set; }
+
 
     protected override async Task OnInitializedAsync()
     {
-        People = await _context.Person.ToListAsync<Person>();
+        n = n <= 0 ? 3 : n;
+        People = _context.Person.OrderBy(m => m.Age).Skip(p * n).Take(n).ToList();
     }
 
     void OnClickAction()
     {
-        string[] arr = FindStr.Split(" ");
-        People = _context.Person.Where(m => arr.Contains(m.Name)).ToList();
+        People = _context.Person.Where(m => m.Name.Contains(FindStr)).OrderBy(m => m.Age).ToList();
     }
 }
