@@ -41,18 +41,11 @@
 @code {
     private string? FindStr { get; set; }
     private IList<Person>? People { get; set; }
-    [SupplyParameterFromQuery]
-    [Parameter]
-    public int p { get; set; }
-    [SupplyParameterFromQuery]
-    [Parameter]
-    public int n { get; set; }
-
 
     protected override async Task OnInitializedAsync()
     {
-        n = n <= 0 ? 3 : n;
-        People = _context.Person.OrderBy(m => m.Age).Skip(p * n).Take(n).ToList();
+        IQueryable<Person> result = _context.Person.FromSqlRaw("select * from person order by PersonId desc");
+        People = await result.ToListAsync();
     }
 
     void OnClickAction()
