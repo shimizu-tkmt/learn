@@ -50,6 +50,7 @@
 
     void OnClickAction()
     {
-        People = _context.Person.Where(m => m.Name == FindStr).ToList();
+        string[] arr = FindStr.Split(" ");
+        People = _context.Person.Where(m => arr.Contains(m.Name)).ToList();
     }
 }
