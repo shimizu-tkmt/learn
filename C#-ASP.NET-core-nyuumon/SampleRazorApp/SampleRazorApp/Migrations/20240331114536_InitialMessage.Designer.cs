@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SampleRazorApp.Data;
 
@@ -10,9 +11,11 @@ using SampleRazorApp.Data;
 namespace SampleRazorApp.Migrations
 {
     [DbContext(typeof(SampleRazorAppContext))]
-    partial class SampleRazorAppContextModelSnapshot : ModelSnapshot
+    [Migration("20240331114536_InitialMessage")]
+    partial class InitialMessage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
