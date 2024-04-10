@@ -1,0 +1,39 @@
+﻿@page "/message"
+@using Microsoft.EntityFrameworkCore
+@using SampleBlazorApp.Data
+@using SampleBlazorApp.Models
+@inject SampleBlazorApp.Data.SampleBlazorAppContext _context
+
+<h1>message</h1>
+
+<p>
+    <a href="/message/add">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>コメント</th>
+            <th>投稿者</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(message != null)
+        {
+            @foreach(var item in Messages)
+            <tr>
+                <td>@item.Comment</td>
+                <td>@item.Person.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    public IList<message> Messages{ get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Messages = await _context.Message.Include(mbox => m.Person).ToListAsync();
+    }
+}
