@@ -8,3 +8,8 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+<p class="h4">
+    ID:
+    @(User.Identity.Name == null ? "no-data" : User.Identity.Name)
+    @("/" + User.Identity.IsAuthenticated + "/" + User.Identity.AuthenticationType)
+</p>
