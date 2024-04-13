@@ -1,0 +1,11 @@
+﻿@page
+@model SampleAuthApp.Pages.SampleModel
+@{
+}
+
+<h1>Sample Page</h1>
+<h2>ID:@(User.Identity.Name == null ? "no-data":User.Identity.Name)</h2>
+<hr />
+<form method="post" id="account">
+    <button id="auth-submit" type="submit" class="btn btn-primary">Click Me!</button>
+</form>
